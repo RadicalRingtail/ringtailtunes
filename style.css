@@ -1,0 +1,81 @@
+body
+{
+  font-family: sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+
+@@keyframes fadein {
+  0% { opacity: 0% }
+  100% { opacity: 100% }
+}
+
+.background
+{
+  position: fixed;
+  background-image: url('cry alone cover.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.art, .links
+{
+  animation-name: fadein;
+  animation-duration: 2s;
+}
+
+.art img
+{
+  opacity: 0%;
+  box-shadow: 0px 0px 34px -6px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 0px 34px -6px rgba(0,0,0,0.43);
+  margin-top: 7%;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: fadein;
+  animation-duration: 2s;
+}
+
+.art h3
+{
+  font-family: AXIS;
+  src: url(Axist Extrabold.otf);
+  text-align: center;
+  font-size: 50px;
+  padding: 0%;
+  margin: 0.5%;
+}
+
+.links
+{
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 2%;
+}
+
+.links li
+{
+  display: inline;
+}
+
+.links a
+{
+  width: 80px;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.links a:hover
+{
+  filter: alpha(opacity=30);
+}
+
+.links img
+{
+  width: 80px;
+}
